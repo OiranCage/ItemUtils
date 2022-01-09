@@ -1,0 +1,24 @@
+{
+    "name": "oirancage/item-utils",
+    "description": "pocketmine plugin to utilize item",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "famima65536",
+            "email": "famima65536@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "pocketmine/pocketmine-mp": "4.0.5",
+        "cortexpe/commando": "dev-PM4"
+    },
+    "autoload": {
+        "psr-4": {
+            "oirancage\\itemutils\\": "src/"
+        }
+    }
+}
