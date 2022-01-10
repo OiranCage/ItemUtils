@@ -17,3 +17,6 @@ permissions:
   itemutils.command.import:
     default: op
     description: allow to import item information from serialized json format.
+  itemutils.command.rename:
+    default: op
+    description: allow to rename item.

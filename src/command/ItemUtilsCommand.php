@@ -10,9 +10,10 @@ class ItemUtilsCommand extends \CortexPE\Commando\BaseCommand {
 	 * @inheritDoc
 	 */
 	protected function prepare(): void{
-		$this->registerSubCommand(new DuplicateCommand("duplicate", "duplicate item with named tag", ["dup"]));
-		$this->registerSubCommand(new ImportCommand("import", "import item from json", ["imp"]));
-		$this->registerSubCommand(new ExportCommand("export", "export item to json text", ["exp"]));
+		$this->registerSubCommand(new DuplicateCommand("duplicate", "duplicate item with named tag", ["d"]));
+		$this->registerSubCommand(new RenameCommand("rename", "rename item", ["r"]));
+		$this->registerSubCommand(new ImportCommand("import", "import item from json", ["i"]));
+		$this->registerSubCommand(new ExportCommand("export", "export item to json text", ["e"]));
 	}
 
 	/**
