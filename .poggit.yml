@@ -6,7 +6,7 @@ projects:
   ItemUtils:
     path: ""
     libs:
-      - src: CortexPE\Commando\Commando
+      - src: CortexPE\Commando
         version: ^3.0
         branch: PM4
 ...
