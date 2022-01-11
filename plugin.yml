@@ -1,6 +1,6 @@
 name: ItemUtils
 main: oirancage\itemutils\Main
-version: 1.0.0
+version: 1.1.0
 api: 4.0.0
 author: OiranCage
 authors:
@@ -20,3 +20,6 @@ permissions:
   itemutils.command.rename:
     default: op
     description: allow to rename item.
+  itemutils.command.nbt:
+    default: op
+    description: allow to see nbt of item.
