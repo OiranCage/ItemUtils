@@ -12,7 +12,7 @@ class ImportCommand extends BaseSubCommand {
 
 	protected function prepare(): void{
 		$this->setPermission("itemutils.command.import");
-		$this->registerArgument(0, new RawStringArgument("item nbt"));
+		$this->registerArgument(0, new RawStringArgument("nbt"));
 	}
 
 	public function onRun(CommandSender $sender, string $aliasUsed, array $args): void{
@@ -21,7 +21,7 @@ class ImportCommand extends BaseSubCommand {
 			return;
 		}
 		try{
-			$item = Item::jsonDeserialize(json_decode($args[0], true));
+			$item = Item::jsonDeserialize(json_decode($args["nbt"], true));
 		}catch(\Exception $exception){
 			$sender->sendMessage("Invalid json serialized item was given.");
 			return;
