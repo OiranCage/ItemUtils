@@ -3,7 +3,7 @@
 namespace oirancage\itemutils;
 
 use CortexPE\Commando\PacketHooker;
-use oirancage\itemutils\ItemUtilsCommand;
+use oirancage\itemutils\command\ItemUtilsCommand;
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
