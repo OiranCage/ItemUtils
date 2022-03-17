@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "oirancage\\itemutils\\": "src/"
+            "oirancage\\itemutils\\": "src/oirancage/itemutils"
         }
     }
 }

@@ -4,7 +4,7 @@ namespace oirancage\itemutils;
 
 use CortexPE\Commando\exception\HookAlreadyRegistered;
 use CortexPE\Commando\PacketHooker;
-use oirancage\itemutils\command\ItemUtilsCommand;
+use oirancage\itemutils\oirancage\itemutils\command\ItemUtilsCommand;
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {

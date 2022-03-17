@@ -1,12 +1,11 @@
 name: ItemUtils
 main: oirancage\itemutils\Main
-version: 1.1.0
+version: 1.1.1
 api: 4.0.0
 author: OiranCage
 authors:
   - famima65536
 description: Rich item utils
-src-namespace-prefix: oirancage\itemutils
 permissions:
   itemutils.command.duplicate:
     default: op
